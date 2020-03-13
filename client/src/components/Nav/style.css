@@ -1,0 +1,13 @@
+.navbar-brand {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-nav {
+  display: inline-block;
+}
+
+.navbar-nav .nav-link {
+  display: inline-block;
+  margin-left: 1em;
+}
