@@ -11,3 +11,33 @@
   display: inline-block;
   margin-left: 1em;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#g1{
+  color: #4285F4;
+}
+
+#o1{
+  color: #DB4437;
+}
+
+#o2{
+  color: #F4B400;
+}
+
+#g2{
+  color: #4285F4;
+}
+
+#l1{
+  color: #0F9D58;
+}
+
+#e1{
+  color: #DB4437;
+}
+
