@@ -1,3 +1,40 @@
+# ** Google Books Search - REACT **
+
+![Google Books Search - REACT](screenshots/gbooksreact) ![Google Books Search - SAVED](screenshots/saved)
+
+
+Click here to checkout the **[HEROKU App](https://intense-bayou-80925.herokuapp.com/)** 
+
+This is a Demo application which was built to see, save or buy your favorite books. This application utilizes Mongo, Express, React, Node stack. 
+
+You can checkout the [github source code here](https://github.com/ianasqazi/google-books-search-react). If you are looking to build a React Native mobile app & also reuse the code to deploy on web, this repo can be used as a great starting point.
+
+## Getting Started
+
+### Run it locally
+
+1. Clone the project
+
+```
+git clone https://github.com/ianasqazi/google-books-search-react.git
+```
+
+2. Install 
+
+```
+[sudo] npm install 
+[sudo] cd client && npm install 
+```
+
+3. Run Application 
+
+```
+cd google-books-search-react
+
+# Using npm or yarn
+yarn || npm install
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

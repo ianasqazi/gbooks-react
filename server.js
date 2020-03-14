@@ -18,6 +18,9 @@ app.use(routes);
 // Connect to the Mongo DB
 mongoose.connect("mongodb://localhost/gbooksreact", { useNewUrlParser: true, useUnifiedTopology: true });
 
+// mongoose.connect("mongodb://bookuser:Book@123@ds349618.mlab.com:49618/heroku_r0vmsvh4", { useNewUrlParser: true, useUnifiedTopology: true });
+
+
 // Start the API server
 app.listen(PORT, function() {
   console.log(`API Server now listening on PORT ${PORT}`);
