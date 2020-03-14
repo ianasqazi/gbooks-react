@@ -1,6 +1,6 @@
 # ** Google Books Search - REACT **
 
-![Google Books Search - REACT](screenshots/gbooksreact) ![Google Books Search - SAVED](screenshots/saved)
+![Google Books Search - REACT](screenshots/gbooksreact.png) ![Google Books Search - SAVED](screenshots/saved.png)
 
 
 Click here to checkout the **[HEROKU App](https://intense-bayou-80925.herokuapp.com/)** 
