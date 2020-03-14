@@ -3,7 +3,7 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-dark bg-dark mb-3">
+    <nav className="navbar mb-4">
       <a className="navbar-brand" href="/">
         <span id="g1">G</span>
         <span id="o1">O</span>
@@ -11,6 +11,7 @@ function Nav() {
         <span id="g2">G</span>
         <span id="l1">L</span>
         <span id="e1">E</span>
+        <span id="subBooks">&#32;&#32;&#32;BOOKS</span>
 
       </a>
       <div className="navbar-nav right">
@@ -18,6 +19,7 @@ function Nav() {
         <a className="nav-link" href="/saved">Saved</a>
       </div>
     </nav>
+
   );
 }
 

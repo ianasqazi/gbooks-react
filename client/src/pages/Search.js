@@ -42,7 +42,7 @@ function Search() {
               disabled={!formObject.query}
               onClick={(e) => {e.preventDefault(); searchBooks(formObject.query);}}
             >
-              Lookup
+              SEARCH 
             </FormBtn>
           </form>
         </Col>
@@ -72,7 +72,7 @@ function Search() {
               })}
             </List>
           ) : (
-            <h3>No Results to Display</h3>
+            <h3 style={{ marginBottom: "1em", color:"#F4B400" }}>No Results to Display</h3>
           )}
         </Col>
       </Row>

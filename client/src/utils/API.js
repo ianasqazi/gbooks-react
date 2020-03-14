@@ -16,8 +16,8 @@ export default {
   // Saves a book to the database
   saveBook: async function(bookData) {
     let exists = await axios.get("/api/books/" + bookData.id);
-    //console.log(bookData);
-    //console.log(exists);
+    console.log(bookData);
+    console.log(exists);
     if (!exists.data) {
       await axios.post("/api/books", bookData)
       return { message: "Book saved." };
@@ -40,7 +40,7 @@ export default {
         link: book.volumeInfo.infoLink
       });
     }
-    //console.log(books);
+    // console.log(books);
     return books;
   },
 };

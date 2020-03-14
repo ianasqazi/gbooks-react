@@ -31,7 +31,7 @@ function Books() {
       .then(() =>
         loadBooks()
       )
-      .catch(err => console.log(err));
+      .catch(err => console.log(err.res));
   };
 
   // Delete book

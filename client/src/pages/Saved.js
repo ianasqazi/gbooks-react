@@ -36,7 +36,7 @@ function Saved() {
     <Container fluid>
       <Row>
         <Col>
-          <h1 style={{ marginBottom: "1em" }}>Saved Books</h1>
+          <h1 style={{ marginBottom: "1em", color:"#0F9D58" }}>Saved Books</h1>
           {books.length ? (
             <List>
               {books.map(book => {
@@ -60,7 +60,7 @@ function Saved() {
               })}
             </List>
           ) : (
-            <h3>No Results to Display</h3>
+            <h3 style={{ marginBottom: "1em", color:"#DB4437" }}>No Results to Display</h3>
           )}
         </Col>
       </Row>

@@ -1,4 +1,9 @@
+
+.navbar{
+  background-color: black;
+}
 .navbar-brand {
+  font-size: 40px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -14,7 +19,8 @@
 
 body {
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  background-color: black;
 }
 
 #g1{
@@ -40,4 +46,7 @@ body {
 #e1{
   color: #DB4437;
 }
+
+#subBooks{
+font-size: x-small}
 
