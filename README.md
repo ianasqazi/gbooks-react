@@ -1,4 +1,4 @@
-# ** Google Books Search - REACT **
+# Google Books Search - REACT
 
 ![Google Books Search - REACT](screenshots/gbooksreact.png)
 
